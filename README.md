@@ -18,17 +18,17 @@ Note:
     Check dataset license to know available usecases. 
     Authors of this package are not affiliated with dataset contents in any way.
 
-|                  Dataset                   | Users | Items | Interactions |
-| :----------------------------------------: | :---: | :---: | :----------: |
-|     [Movielens](Datasets/movielens.md)     | 162k  |  62k  |     25m      |
-|  [Million Song Dataset](Datasets/msd.md)   |  1m   | 385k  |     48m      |
-|       [Netflix](Datasets/netflix.md)       | 480k  | 17.7k |     100m     |
-|     [Goodreads](Datasets/goodreads.md)     | 800k  | 1.5m  |     225m     |
-|       [Last.fm](Datasets/lastfm.md)        | 360k  | 290k  |    17.5m     |
-|      [Epinions](Datasets/epinions.md)      |  49k  | 140k  |     660k     |
-|     [Book Crossing](Datasets/bookx.md)     | 279k  | 271k  |     1.1m     |
-| [Dating Agency](Datasets/dating_agency.md) | 135k  | 169k  |    17.3m     |
-|        [Jester](Datasets/jester.md)        |  73k  |  100  |     4.1m     |
+|       Dataset        | Users | Items | Interactions |
+| :------------------: | :---: | :---: | :----------: |
+|      Movielens       | 162k  |  62k  |     25m      |
+| Million Song Dataset |  1m   | 385k  |     48m      |
+|       Netflix        | 480k  | 17.7k |     100m     |
+|      Goodreads       | 800k  | 1.5m  |     225m     |
+|       Last.fm        | 360k  | 290k  |    17.5m     |
+|       Epinions       |  49k  | 140k  |     660k     |
+|    Book Crossing     | 279k  | 271k  |     1.1m     |
+|    Dating Agency     | 135k  | 169k  |    17.3m     |
+|        Jester        |  73k  |  100  |     4.1m     |
 
 
 
