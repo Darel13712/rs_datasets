@@ -1,0 +1,25 @@
+site_name: rs_datasets
+
+repo_name: 'GitHub'
+repo_url: 'https://github.com/Darel13712/rs_datasets'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
+    accent: 'light-blue'
+  font:
+    text: 'Roboto'
+    code: 'Menlo'
+  logo:
+    icon: 'star'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/Darel13712/rs_datasets'

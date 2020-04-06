@@ -1,0 +1,4 @@
+/venv/
+/rs_datasets.egg-info/
+/.idea/git
+__pycache__/
