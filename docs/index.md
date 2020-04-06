@@ -5,7 +5,7 @@ recommender systems datasets into `pandas.DataFrame` as easy as `data = Dataset(
 
 ## Installation
 ```
-pip install git+https://github.com/Darel13712/rs_datasets.git
+pip install rs_datasets
 ```
 
 ## Available datasets
