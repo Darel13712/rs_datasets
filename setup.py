@@ -5,9 +5,9 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='rs_datasets',
-    version='0.1.10',
-    author='Yan-Martin Tamm, Boris Shminke, Alexey Vasiliev',
-    author_email='YYTamm@sberbank.ru',
+    version='0.2.0',
+    author='Yan-Martin Tamm',
+    author_email='darel142857@gmail.com',
     description='Tool for autodownloading recommendation systems datasets',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -23,6 +23,7 @@ setuptools.setup(
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',

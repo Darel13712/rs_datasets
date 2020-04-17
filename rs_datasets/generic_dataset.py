@@ -30,7 +30,7 @@ class Dataset:
 
     def info(self):
         for name, df in self.__dict__.items():
-            if isinstance(df, Frame) or isinstance(df, DataFrame) or isinstance(df, Series):
+            if isinstance(df, (Frame, DataFrame, Series)):
                 print(name)
                 self.display(df.head(3))
                 print()
