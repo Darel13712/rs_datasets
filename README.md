@@ -12,6 +12,3 @@ pip install rs_datasets
 ## Documentation
 Please see [documentation](https://darel13712.github.io/rs_datasets/) to this project to 
 see available datasets and examples of use.
-
-##### Affiliation
-This package was developed with a help of my colleagues during my work at Sberbank AILab.
