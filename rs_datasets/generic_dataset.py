@@ -26,7 +26,7 @@ class Dataset:
     @property
     def default_folder(self):
         root = os.path.expanduser('~')
-        return join(root, 'rs_datasets')
+        return join(root, '.rs_datasets')
 
     def info(self):
         for name, df in self.__dict__.items():
