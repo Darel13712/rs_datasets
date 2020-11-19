@@ -3,7 +3,7 @@
 Classic dataset from the famous [Netflix Prize](https://www.kaggle.com/netflix-inc/netflix-prize-data) 
 which took place 2006-2009. 
 
-No ratings are available for testing data.
+No ratings available for test data.
 
 
 ## Stats

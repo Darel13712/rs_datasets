@@ -5,22 +5,6 @@ from os.path import  join
 from rs_datasets.data_loader.loaders import download_dataset
 
 
-def download_rekko(path: str = '.'):
-    """
-    Скачать датасет с rekko chalenge
-    https://boosters.pro/championship/rekko_challenge/data
-    175MB
-
-    :param path: куда положить
-    :return: None
-    """
-    logging.info('Downloading rekko challenge dataset...')
-    archive = 'rekko_challenge_rekko_challenge_2019.zip'
-    url = f'https://boosters.pro/api/ch/files/pub/{archive}'
-    path = join(path, 'rekko.zip')
-    download_dataset(url, path)
-
-
 def download_citeulike_a(path: str = '.'):
     """
     Скачать CiteULike-a

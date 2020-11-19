@@ -21,7 +21,7 @@ can be retrieved with this package.
 | :----------------------------------------: | :---: | :---: | :----------: |
 |     [Movielens](Datasets/movielens.md)     | 162k  |  62k  |  up to 25m   |
 |  [Million Song Dataset](Datasets/msd.md)   |  1m   | 385k  |     48m      |
-|       [Netflix](Datasets/netflix.md)       | 480k  | 17.7k |     100m     |
+|       [Netflix](Datasets/netflix.md)         | 480k  | 17.7k |     100m     |
 |     [Goodreads](Datasets/goodreads.md)     | 800k  | 1.5m  |     225m     |
 |       [Last.fm](Datasets/lastfm.md)        | 360k  | 290k  |    17.5m     |
 |      [Epinions](Datasets/epinions.md)      |  49k  | 140k  |     660k     |
@@ -29,6 +29,9 @@ can be retrieved with this package.
 | [Dating Agency](Datasets/dating_agency.md) | 135k  | 169k  |    17.3m     |
 |        [Jester](Datasets/jester.md)        |  73k  |  100  |     4.1m     |
 |        [Amazon](Datasets/amazon.md)        | ?[^*] | ?[^*] |  up to 32m   |
+|        [Rekko](Datasets/rekko.md)          | 100k, 500k |  8k   |  500k, 9.6m  |
+
+
 
 [^*]: Their download speed is extremely slow and I wasn't patient enough to download the biggest one to check this.
 

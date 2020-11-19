@@ -8,3 +8,4 @@ from rs_datasets.dating_agency import DatingAgency
 from rs_datasets.book_crossing import BookCrossing
 from rs_datasets.jester import Jester
 from rs_datasets.amazon import Amazon
+from rs_datasets.rekko import Rekko
