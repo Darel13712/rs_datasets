@@ -19,7 +19,8 @@ setuptools.setup(
         'gdown',
         'pyarrow',
         'tqdm',
-        'xlrd'
+        'xlrd',
+        'kaggle'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

@@ -30,6 +30,7 @@ can be retrieved with this package.
 |        [Jester](Datasets/jester.md)        |  73k  |  100  |     4.1m     |
 |        [Amazon](Datasets/amazon.md)        | ?[^*] | ?[^*] |  up to 32m   |
 |        [Rekko](Datasets/rekko.md)          | 100k, 500k |  8k   |  500k, 9.6m  |
+|        [Steam](Datasets/steam.md)          |    12k     |  5k   |     200k     |
 
 
 

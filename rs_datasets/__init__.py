@@ -9,3 +9,4 @@ from rs_datasets.book_crossing import BookCrossing
 from rs_datasets.jester import Jester
 from rs_datasets.amazon import Amazon
 from rs_datasets.rekko import Rekko
+from rs_datasets.steam import Steam
