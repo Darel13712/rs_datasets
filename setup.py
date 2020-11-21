@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='rs_datasets',
-    version='0.3.0',
+    version='0.3.3',
     author='Yan-Martin Tamm',
     author_email='darel142857@gmail.com',
     description='Tool for autodownloading recommendation systems datasets',
