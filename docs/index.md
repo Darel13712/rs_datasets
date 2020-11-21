@@ -32,6 +32,7 @@ can be retrieved with this package.
 |        [Rekko](Datasets/rekko.md)          | 100k, 500k |  8k   |  500k, 9.6m  |
 |        [Steam](Datasets/steam.md)          |    12k     |  5k   |     200k     |
 |        [Anime](Datasets/anime.md)          |    73k     |  11k  |     7.8m     |
+| [Retail Rocket](Datasets/retail_rocket.md) |    1.4m    | 235k  |     2.7m     |
 
 
 

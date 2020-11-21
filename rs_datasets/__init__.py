@@ -11,3 +11,4 @@ from rs_datasets.amazon import Amazon
 from rs_datasets.rekko import Rekko
 from rs_datasets.steam import Steam
 from rs_datasets.anime import Anime
+from rs_datasets.retail_rocket import RetailRocket
