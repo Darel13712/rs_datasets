@@ -1,6 +1,7 @@
 # YooChoose
 
-[YooChoose dataset](https://2015.recsyschallenge.com/challenge.html). 
+[YooChoose dataset](https://2015.recsyschallenge.com/challenge.html) 
+for session-based recommendations in an e-commerce website.
 
 
 ## Stats

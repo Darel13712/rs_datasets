@@ -1,4 +1,3 @@
-from os import rename
 from os.path import join, exists
 
 import datatable as dt

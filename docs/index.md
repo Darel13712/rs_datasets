@@ -33,8 +33,8 @@ can be retrieved with this package.
 |        [Steam](Datasets/steam.md)          |    12k     |  5k   |     200k     |
 |        [Anime](Datasets/anime.md)          |    73k     |  11k  |     7.8m     |
 | [Retail Rocket](Datasets/retail_rocket.md) |    1.4m    | 235k  |     2.7m     |
-| [YooChoose](Datasets/yoochoose.md)         |     9m     |  52k  |   33m, 1m    |
-
+|     [YooChoose](Datasets/yoochoose.md)     |     9m     |  52k  |   33m, 1m    |
+|    [Diginetica](Datasets/diginetica.md)    |    232k    | 184k  |  1.2m, 18k   | 
 
 
 
