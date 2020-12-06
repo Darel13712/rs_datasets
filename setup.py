@@ -20,7 +20,8 @@ setuptools.setup(
         'pyarrow',
         'tqdm',
         'xlrd',
-        'kaggle'
+        'kaggle',
+        'py7zr'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

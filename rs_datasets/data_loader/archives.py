@@ -4,6 +4,7 @@ from os.path import splitext
 from tarfile import TarFile
 from typing import Union
 from zipfile import ZipFile
+from py7zr import SevenZipFile
 
 
 def extract(archive_name: str, manage_folder: bool = True) -> None:
@@ -20,6 +21,8 @@ def extract(archive_name: str, manage_folder: bool = True) -> None:
     """
     if archive_name.endswith('.zip'):
         archive = ZipFile(archive_name)
+    elif archive_name.endswith('.7z'):
+        archive = SevenZipFile(archive_name)
     else:
         try:
             archive = tarfile.open(archive_name)
@@ -59,6 +62,9 @@ def contains_dir(archive: Union[ZipFile, TarFile]) -> bool:
     elif isinstance(archive, TarFile):
         contents = archive.getmembers()
         is_dir = contents[0].isdir()
+    elif isinstance(archive, SevenZipFile):
+        contents = archive.getnames()
+        is_dir = os.path.isdir(contents[0])
     else:
         raise TypeError(f'Unknown archive type: {type(archive)}')
     return is_dir
