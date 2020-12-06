@@ -14,7 +14,7 @@
     
     
       
-        <title>Last.fm - rs_datasets</title>
+        <title>Diginetica - rs_datasets</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lastfm" class="md-skip">
+        <a href="#diginetica" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Last.fm
+              Diginetica
             
           </span>
         </div>
@@ -283,11 +283,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../diginetica/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Diginetica
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       Diginetica
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -331,56 +376,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Last.fm
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../lastfm/" class="md-nav__link">
       Last.fm
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#stats" class="md-nav__link">
-    Stats
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -522,39 +522,56 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/Darel13712/rs_datasets/edit/master/docs/Datasets/lastfm.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/Darel13712/rs_datasets/edit/master/docs/Datasets/diginetica.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="lastfm">Last.fm</h1>
-<p><a href="http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html">Last.fm-360k</a> 
-contains <code>(user, artist, play count)</code> triplets collected with Last.fm API,
-using <code>user.getTopArtists()</code> method.</p>
+                <h1 id="diginetica">Diginetica</h1>
+<p><a href="https://competitions.codalab.org/competitions/11161#learn_the_details-data2">Diginetica dataset</a> 
+for session-based recommendations in an e-commerce website.</p>
 <h2 id="stats">Stats</h2>
 <ul>
-<li>359,347 unique users</li>
-<li>186,642 artists with MBID</li>
-<li>107,373 artists without MBDID</li>
-<li>17,559,530 total rows</li>
+<li>1,235,380 views</li>
+<li>18,025 purchases</li>
+<li>232,816 users</li>
+<li>184,047 items</li>
 </ul>
 <h2 id="example">Example</h2>
-<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">rs_datasets</span> <span class="kn">import</span> <span class="n">Lastfm</span>
-<span class="n">lastfm</span> <span class="o">=</span> <span class="n">Lastfm</span><span class="p">()</span>
-<span class="n">lastfm</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">rs_datasets</span> <span class="kn">import</span> <span class="n">Diginetica</span>
+<span class="n">d</span> <span class="o">=</span> <span class="n">Diginetica</span><span class="p">()</span>
+<span class="n">d</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </code></pre></div>
 
-<div class="codehilite"><pre><span></span><code>play_counts
-                                    user_id                             artist_id        artist_name  play_count
-0  00000c289a1829a808ac09c00daf10bc3c4e223b  3bd73256-3905-4f3a-97e2-8b341527f805    betty blowtorch        2137
-1  00000c289a1829a808ac09c00daf10bc3c4e223b  f2fb0ff0-5679-42ec-a55c-15109ce6e320          die Ärzte        1099
-2  00000c289a1829a808ac09c00daf10bc3c4e223b  b3ae82c2-e60b-4551-a76d-6620f1b456aa  melissa etheridge         897
+<div class="codehilite"><pre><span></span><code>items
+   item_id  log2price                      name_tokens
+0        1         10  4875,776,56689,18212,18212,4896
+1    69585          6      7583,18117,41805,41805,2371
+2    90939          6       604,18117,41805,41805,2371
 
-users
-                                    user_id gender   age  country  signup_date
-0  00000c289a1829a808ac09c00daf10bc3c4e223b      f  22.0  Germany  Feb 1, 2007
-1  00001411dc427966b17297bf4d69e7e193135d89      f   NaN   Canada  Dec 4, 2007
-2  00004d2ac9316e22dc007ab2243d6fcb239e707d          NaN  Germany  Sep 1, 2006
+categories
+   item_id  category_id
+0   139578         1096
+1   417975         1096
+2   291805         1096
+
+purchases
+   session_id  user_id   timeframe        date  order_id  item_id
+0         150  18278.0    17100868  2016-05-06     16421    25911
+1         151      NaN     6454547  2016-05-06     16290   175874
+2         156      7.0  1721689387  2016-05-27     21173    35324
+
+views
+   session_id  user_id  item_id  timeframe        date
+0           1      NaN    81766     526309  2016-05-09
+1           1      NaN    31331    1031018  2016-05-09
+2           1      NaN    32118     243569  2016-05-09
+
+queries
+   query_id  session_id  user_id  timeframe  duration        date                           tokens  category_id                                              items  is_test
+0         1           1      NaN   16327074       311  2016-05-09  16655,244087,51531,529597,58153            0  7518,71,30311,7837,30792,8252,81766,9338,62220...    False
+1         2           2      NaN     705527       314  2016-05-09                    528941,529116            0  70095,15964,8627,134850,32754,100747,74771,314...    False
+2         3           3      NaN          0       502  2016-05-09              133713,16655,138389            0  59081,51125,9338,9550,32087,62793,2717,10403,3...     True
 </code></pre></div>
                 
               
@@ -574,7 +591,7 @@ users
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../jester/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../dating_agency/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -583,19 +600,19 @@ users
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Jester
+                Dating Agency
               </div>
             </div>
           </a>
         
         
-          <a href="../movielens/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../epinions/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                MovieLens
+                Epinions
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

@@ -14,7 +14,7 @@
     
     
       
-        <title>Last.fm - rs_datasets</title>
+        <title>YooChoose - rs_datasets</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lastfm" class="md-skip">
+        <a href="#yoochoose" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Last.fm
+              YooChoose
             
           </span>
         </div>
@@ -331,56 +331,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Last.fm
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../lastfm/" class="md-nav__link">
       Last.fm
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#stats" class="md-nav__link">
-    Stats
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -460,11 +415,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../yoochoose/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        YooChoose
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       YooChoose
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -522,39 +522,44 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/Darel13712/rs_datasets/edit/master/docs/Datasets/lastfm.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/Darel13712/rs_datasets/edit/master/docs/Datasets/yoochoose.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="lastfm">Last.fm</h1>
-<p><a href="http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html">Last.fm-360k</a> 
-contains <code>(user, artist, play count)</code> triplets collected with Last.fm API,
-using <code>user.getTopArtists()</code> method.</p>
+                <h1 id="yoochoose">YooChoose</h1>
+<p><a href="https://2015.recsyschallenge.com/challenge.html">YooChoose dataset</a> 
+for session-based recommendations in an e-commerce website.</p>
 <h2 id="stats">Stats</h2>
 <ul>
-<li>359,347 unique users</li>
-<li>186,642 artists with MBID</li>
-<li>107,373 artists without MBDID</li>
-<li>17,559,530 total rows</li>
+<li>33,003,944 clicks</li>
+<li>9,249,729 sessions</li>
+<li>1,150,753 purchases</li>
+<li>52,739 items</li>
 </ul>
 <h2 id="example">Example</h2>
-<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">rs_datasets</span> <span class="kn">import</span> <span class="n">Lastfm</span>
-<span class="n">lastfm</span> <span class="o">=</span> <span class="n">Lastfm</span><span class="p">()</span>
-<span class="n">lastfm</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">rs_datasets</span> <span class="kn">import</span> <span class="n">YooChoose</span>
+<span class="n">yc</span> <span class="o">=</span> <span class="n">YooChoose</span><span class="p">()</span>
+<span class="n">yc</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </code></pre></div>
 
-<div class="codehilite"><pre><span></span><code>play_counts
-                                    user_id                             artist_id        artist_name  play_count
-0  00000c289a1829a808ac09c00daf10bc3c4e223b  3bd73256-3905-4f3a-97e2-8b341527f805    betty blowtorch        2137
-1  00000c289a1829a808ac09c00daf10bc3c4e223b  f2fb0ff0-5679-42ec-a55c-15109ce6e320          die Ärzte        1099
-2  00000c289a1829a808ac09c00daf10bc3c4e223b  b3ae82c2-e60b-4551-a76d-6620f1b456aa  melissa etheridge         897
+<div class="codehilite"><pre><span></span><code>log
+   session_id                        ts    item_id category
+0           1  2014-04-07T10:51:09.277Z  214536502    False
+1           1  2014-04-07T10:54:09.868Z  214536500    False
+2           1  2014-04-07T10:54:46.998Z  214536506    False
 
-users
-                                    user_id gender   age  country  signup_date
-0  00000c289a1829a808ac09c00daf10bc3c4e223b      f  22.0  Germany  Feb 1, 2007
-1  00001411dc427966b17297bf4d69e7e193135d89      f   NaN   Canada  Dec 4, 2007
-2  00004d2ac9316e22dc007ab2243d6fcb239e707d          NaN  Germany  Sep 1, 2006
+purchases
+   session_id                        ts    item_id  price  quantity
+0      420374  2014-04-06T18:44:58.314Z  214537888  12462         1
+1      420374  2014-04-06T18:44:58.325Z  214537850  10471         1
+2      281626  2014-04-06T09:40:13.032Z  214535653   1883         1
+
+test
+   session_id                        ts    item_id category
+0           5  2014-04-07T17:13:46.713Z  214530776    False
+1           5  2014-04-07T17:20:56.973Z  214530776    False
+2           5  2014-04-07T17:21:19.602Z  214530776    False
 </code></pre></div>
                 
               
@@ -574,7 +579,7 @@ users
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../jester/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../steam/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -583,25 +588,11 @@ users
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Jester
+                Steam
               </div>
             </div>
           </a>
         
-        
-          <a href="../movielens/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                MovieLens
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
         
       </nav>
     </div>
