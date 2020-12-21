@@ -1,6 +1,7 @@
 # Welcome to rs_datasets
 
-![](https://img.shields.io/badge/datasets-16-blue)
+![](https://img.shields.io/pypi/v/rs_datasets?color=%2300ccff)
+![](https://img.shields.io/badge/datasets-16-00ccff)
 
 This tool allows you download, unpack and read 
 recommender systems datasets into `pandas.DataFrame` as easy as `data = Dataset()`.

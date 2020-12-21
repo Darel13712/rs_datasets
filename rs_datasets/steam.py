@@ -2,7 +2,6 @@ import logging
 from os.path import join, exists
 
 import datatable as dt
-from kaggle.api.kaggle_api_extended import KaggleApi
 
 from rs_datasets.generic_dataset import Dataset, safe
 
@@ -24,6 +23,7 @@ class Steam(Dataset):
 
     @safe
     def _download(self, path):
+        from kaggle.api.kaggle_api_extended import KaggleApi
         logging.info('Downloading steam dataset...')
         api = KaggleApi()
         api.authenticate()
