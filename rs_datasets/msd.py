@@ -116,7 +116,7 @@ class MillionSongDataset(Dataset):
             base_url + 'train_triplets.txt.zip',
             join(self.data_folder, 'train.zip')
         )
-        rename(join(path, 'train'), path)
+        rename(join(self.data_folder, 'train'), path)
 
         self.logger.info('Downloading evaluation data for MSD Challenge...')
         download_dataset(
