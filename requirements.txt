@@ -34,7 +34,7 @@ pickleshare==0.7.5
 pluggy==0.13.1
 prompt-toolkit==3.0.4
 ptyprocess==0.6.0
-py==1.8.1
+py==1.10.0
 pyarrow==0.16.0
 Pygments==2.7.4
 pymdown-extensions==6.3
