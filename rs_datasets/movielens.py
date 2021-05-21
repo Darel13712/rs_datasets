@@ -90,8 +90,8 @@ class MovieLens(Dataset):
     @staticmethod
     def _read_10m(folder: str) -> Tuple[Frame, Frame, Frame]:
         ratings = dt.fread(join(folder, 'ratings.dat'), columns=rating_cols).to_pandas()
-        items = dt.fread(join(folder, 'movies.dat'), columns=item_cols).to_pandas()
-        tags = dt.fread(join(folder, 'tags.dat'), columns=tag_cols).to_pandas()
+        items = dt.fread(join(folder, 'movies.dat'), columns=item_cols, quotechar="").to_pandas()
+        tags = dt.fread(join(folder, 'tags.dat'), columns=tag_cols, quotechar="").to_pandas()
         return ratings, items, tags
 
     @staticmethod
