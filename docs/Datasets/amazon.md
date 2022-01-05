@@ -50,8 +50,8 @@ amazon.info()
 ```
 ```text
 ratings
-      user_id         item_id  rating
-0  B001GXRQW0   APV13CM0919JD     1.0
-1  B001GXRQW0  A3G8U1G1V082SN     5.0
-2  B001GXRQW0   A11T2Q0EVTUWP     5.0
+      user_id         item_id  rating   timestamp
+0  B001GXRQW0   APV13CM0919JD     1.0  1229644800
+1  B001GXRQW0  A3G8U1G1V082SN     5.0  1229472000
+2  B001GXRQW0   A11T2Q0EVTUWP     5.0  1229472000
 ```
