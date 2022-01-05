@@ -21,7 +21,8 @@ setuptools.setup(
         'tqdm',
         'xlrd',
         'kaggle',
-        'py7zr'
+        'py7zr',
+        'openpyxl'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
