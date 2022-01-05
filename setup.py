@@ -14,7 +14,7 @@ setuptools.setup(
     url='https://github.com/Darel13712/rs_datasets',
     packages=setuptools.find_packages(),
     install_requires=[
-        'datatable',
+        'datatable @ git+https://github.com/h2oai/datatable@main#egg=datatable',
         'pandas',
         'gdown',
         'pyarrow',
