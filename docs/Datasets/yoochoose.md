@@ -1,6 +1,6 @@
 # YooChoose
 
-[YooChoose dataset](https://2015.recsyschallenge.com/challenge.html) 
+[YooChoose dataset](https://recsys.acm.org/recsys15/challenge/) 
 for session-based recommendations in an e-commerce website.
 
 
