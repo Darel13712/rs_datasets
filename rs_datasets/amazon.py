@@ -61,7 +61,7 @@ class Amazon(Dataset):
             self._download(folder, category)
         self.ratings = dt.fread(
             join(folder, category + '.csv'),
-            columns=['user_id', 'item_id', 'rating']
+            columns=['user_id', 'item_id', 'rating', 'timestamp']
         ).to_pandas()
 
 
