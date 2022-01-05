@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='rs_datasets',
-    version='0.4.3',
+    version='0.5.0',
     author='Yan-Martin Tamm',
     author_email='darel142857@gmail.com',
     description='Tool for autodownloading recommendation systems datasets',
@@ -14,7 +14,7 @@ setuptools.setup(
     url='https://github.com/Darel13712/rs_datasets',
     packages=setuptools.find_packages(),
     install_requires=[
-        'datatable @ git+https://github.com/h2oai/datatable@main#egg=datatable',
+        'datatable',
         'pandas',
         'gdown',
         'pyarrow',

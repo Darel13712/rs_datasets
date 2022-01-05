@@ -1,7 +1,7 @@
 # Welcome to rs_datasets
 
 ![](https://img.shields.io/pypi/v/rs_datasets?color=%2300ccff)
-![](https://img.shields.io/badge/datasets-16-00ccff)
+![](https://img.shields.io/badge/datasets-15-00ccff)
 
 This tool allows you download, unpack and read 
 recommender systems datasets into `pandas.DataFrame` as easy as `data = Dataset()`.
@@ -47,3 +47,11 @@ links
 2        3   113228  15602.0
 ```
 Loaded DataFrames are available as class attributes.
+
+## Note
+
+This package relies on `datatable` to read files. 
+There are some known issues with reading some of the datasets, which should be solved with the release of `datatable==1.1.0`,
+but they are quite slow on releases. If you experience problems with reading datasets, you may try to downgrade datatable 
+to 0.11 or 0.9. Or you can install a dev build `1.1.0a2102` or newer from [s3](https://h2o-release.s3.amazonaws.com/datatable/index.html).
+Find your python version, copy link for whl and do `pip install link`. Sorry for the inconvenience.

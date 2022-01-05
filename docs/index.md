@@ -26,7 +26,6 @@ can be retrieved with this package.
 |       [Last.fm](Datasets/lastfm.md)        | 360k  | 290k  |    17.5m     |
 |      [Epinions](Datasets/epinions.md)      |  49k  | 140k  |     660k     |
 |     [Book Crossing](Datasets/bookx.md)     | 279k  | 271k  |     1.1m     |
-| [Dating Agency](Datasets/dating_agency.md) | 135k  | 169k  |    17.3m     |
 |        [Jester](Datasets/jester.md)        |  73k  |  100  |     4.1m     |
 |        [Amazon](Datasets/amazon.md)        | ?[^*] | ?[^*] |  up to 32m   |
 |        [Rekko](Datasets/rekko.md)          | 100k, 500k |  8k   |  500k, 9.6m  |
