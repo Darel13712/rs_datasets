@@ -68,6 +68,6 @@ class Amazon(Dataset):
     @safe
     def _download(self, path, category):
         self.logger.info(f'Downloading Amazon {category} ratings...')
-        base_url = 'http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/'
+        base_url = 'https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/'
         url = base_url + categories[category]
         download_url(url, join(path, category + '.csv'))
